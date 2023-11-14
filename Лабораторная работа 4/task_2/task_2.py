@@ -1,4 +1,3 @@
-# TODO импортировать необходимые молули
 import json
 import csv
 import collections
