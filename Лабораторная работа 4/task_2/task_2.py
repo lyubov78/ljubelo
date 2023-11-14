@@ -16,8 +16,6 @@ def task() -> None:
     with open(OUTPUT_FILENAME, 'w') as f_o:
         json_data = json.dump(csv_data, f_o, indent=4)
 
-    return json_data
-
 
 if __name__ == '__main__':
     # Нужно для проверки
